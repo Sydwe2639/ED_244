@@ -1,0 +1,67 @@
+---
+title: "ED_Project_Proposal Standard Deviants"
+author:
+- Ndumiso,   Nyawo and 26396769
+- Lebohang,  Maleke, 28293436
+- Masiu,     Mohoang, 28298918
+- Rudairo,   Nyamande, 28023366
+- Lwazi,     Zwane, 28913884
+date: 'Deadline: 31 July 15:00'
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+**AIM**  
+
+The aim of this study is to investigate whether a student's faculty of study has an effect on the time required to solve a standardised logical   reasoning test. The study will compare the average problem-solving times of students from different faculties using a one-way Analysis of Variance (ANOVA).
+
+
+**RESEARCH QUESTION**  
+
+  Does faculty of study influence the average time taken by Stellenbosch University students to solve a standardised logical reasoning test?
+
+
+# Experimental design
+
+
+**EXPERIMENTAL UNITS**  
+
+
+  The experimental units are individual undergraduate students currently enrolled at Stellenbosch University
+
+**FACTOR (Independent Variable)**  
+
+
+  Faculty of Study
+
+
+**TREATMENT LEVELS**  
+
+  Engineering
+  Science
+  Economic and Management Sciences (EMS)
+
+**RESPONSE VARIABLES**  
+
+
+  The total time (in seconds) required to complete a standardised logical reasoning test.
+
+**REPLICATION**  
+
+
+  Ten students will be recruited from each faculty, giving a total sample size of thirty(30) participants.
+
+
+
+
+
+
+
+

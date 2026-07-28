@@ -1,0 +1,136 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+]{article}
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={ED\_Project\_Proposal Standard Deviants},
+  pdfauthor={Ndumiso, Nyawo and 26396769; Lebohang, Maleke, 28293436; Masiu, Mohoang, 28298918; Rudairo, Nyamande, 28023366; Lwazi, Zwane, 28913884},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{ED\_Project\_Proposal Standard Deviants}
+\author{Ndumiso, Nyawo and 26396769 \and Lebohang, Maleke,
+28293436 \and Masiu, Mohoang, 28298918 \and Rudairo, Nyamande,
+28023366 \and Lwazi, Zwane, 28913884}
+\date{Deadline: 31 July 15:00}
+
+\begin{document}
+\maketitle
+
+\subsubsection{Instructions to using this
+template}\label{instructions-to-using-this-template}
+
+Delete this section when submitting the final document. You may not
+alter the section headings below. That is, the document may only consist
+of:
+
+(1)Aim; (2) Experimental design. The final knitted PDF report may not
+exceed 1 page (otherwise your group will get zero). Inside the header,
+add the title ``ED\_Project\_Proposal '' (replace with your group name),
+and place group member information at author. That is, names, surnames,
+student numbers of members. The group leader should be places first, and
+then the rest of the members should sorted alphabetically by surname.
+E.g., Name1, Surname1, Student number1, Name2, Surname2, Student
+number2, \ldots{} Read the instructions at the different sections
+carefully. Delete the instruction text when submitting the final
+document.
+
+\#\#Briefly discuss the aim of the project. What is the research
+question? Why is it important to answer this question?
+
+\textbf{AIM} The aim of this study is to investigate whether a student's
+faculty of study has an effect on the time required to solve a
+standardised logical reasoning test. The study will compare the average
+problem-solving times of students from different faculties using a
+one-way Analysis of Variance (ANOVA).
+
+\textbf{RESEARCH QUESTION} - Does faculty of study influence the average
+time taken by Stellenbosch University students to solve a standardised
+logical reasoning test?
+
+\subsubsection{Experimental design}\label{experimental-design}
+
+This is a very important section. Describe the experimental units,
+treatments and measured responses. How many replicates are you planning
+on including? Note that a minimum of 5 replicates are required for the
+experiment.
+
+\textbf{EXPERIMENTAL UNITS}
+
+The experimental units are individual undergraduate students currently
+enrolled at Stellenbosch University
+
+\textbf{FACTOR (Independent Variable)}
+
+Faculty of Study
+
+\textbf{TREATMENT LEVELS} Engineering Science Economic and Management
+Sciences (EMS)
+
+\textbf{RESPONSE VARIABLES}
+
+The total time (in seconds) required to complete a standardised logical
+reasoning test.
+
+\textbf{REPLICATION}
+
+Ten students will be recruited from each faculty, giving a total sample
+size of thirty(30) participants.
+
+\end{document}
