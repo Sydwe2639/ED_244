@@ -27,6 +27,8 @@ The aim of this study is to investigate whether a student's faculty of study has
 
   Does faculty of study influence the average time taken by Stellenbosch University students to solve a standardised logical reasoning test?
 
+# Statistical Hypotheses
+    ''Pending''
 
 # Experimental design
 
@@ -58,7 +60,18 @@ The aim of this study is to investigate whether a student's faculty of study has
 
   Ten students will be recruited from each faculty, giving a total sample size of thirty(30) participants.
 
+# Experimental Procedure
+  Each participant will complete exactly the same logical reasoning test under identical testing conditions. The timer will start once the participant begins the test and stop immediately after the final answer has been completed. The total completion time, measured in seconds, will be recorded as the response variable.
+Participants will complete the the assessment individually without assistance from other participants or access to calculators,mobile phones, artificial intelligence tools, or the internet.
 
+# Controlled Variables
+    ''pending''
+# Randomisation
+    ''Pending''
+# Ethical Considerations
+    ''pending''
+# Planned Statistical Analysis
+    ''Pending''
 
 
 
