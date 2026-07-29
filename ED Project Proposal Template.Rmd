@@ -65,11 +65,26 @@ The aim of this study is to investigate whether a student's faculty of study has
 Participants will complete the the assessment individually without assistance from other participants or access to calculators,mobile phones, artificial intelligence tools, or the internet.
 
 # Controlled Variables
-    ''pending''
+  1. Test instrument - all participants will complete the identical standardised logical reasoning test, that is, same items, same order, same difficulty level.
+  2. Academic year/level - all participants will be restricted to a similar year of study to reduce bias from academic maturity.
+  3. Test administration - all questions will be typed out to reduce inconsistency.
+  4. Time of the day - testing sessions will be around the same time of day to control fatigue or alertness effects.
+  5. Resources available - participants will complete the the assessment individually without assistance from other participants or access to calculators,mobile phones, artificial intelligence tools, or the internet.
+  6.
+
 # Randomisation
-    ''Pending''
+  1. Students within each faculty will be randomly selected from consenting undergraduate volunteers, to minimize selection bias.
+  2. The order in which participants are tested will be randomised across faculties, that is, not testing all Engineering students first, then all Science students to prevent time-of-day fatigue effects from creating bias with faculty.
+  3. 
+
+
 # Ethical Considerations
-    ''pending''
+  1. Voluntary participation: Participation will be voluntary.
+  2. Informed consent - all participants will provide consent prior to participation, having been informed of the study's purpose, procedures, expected duration, and their right to withdraw at any time. Those who consent will also appear in a recorded video.
+  3. No harm: The test poses minimal risk; it is a standard cognitive assessment. Participants who feel discomfort or undue stress will be permitted to withdraw immediately.
+  4. Fair treatment: Equal treatment and identical conditions across faculties will be ensured so no group is disadvantaged by the testing process itself.
+  5.
+
 # Planned Statistical Analysis
     ''Pending''
 
