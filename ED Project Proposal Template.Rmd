@@ -17,47 +17,45 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
 **AIM**  
-
 The aim of this study is to investigate whether a student's faculty of study has an effect on the time required to solve a standardised logical   reasoning test. The study will compare the average problem-solving times of students from different faculties using a one-way Analysis of Variance (ANOVA).
 
 
-**RESEARCH QUESTION**  
-
+**RESEARCH QUESTION** 
   Does faculty of study influence the average time taken by Stellenbosch University students to solve a standardised logical reasoning test?
 
 # Statistical Hypotheses
-    ''Pending''
+  Null hypothesis (H0): The population mean completion time is equal across all three faculties (Engineering, Science, and EMS).
+  Alternative hypothesis (H1): At least one faculty's population mean completion time differs from the others.
+
+  Equivalent general linear model form:
+  Each observation (a student's completion time) is modelled as the sum of three components: the grand mean, a faculty-specific effect, and a random error term. The random    error term is assumed to be normally distributed with mean zero and constant variance.
+  - The grand mean is the average completion time across all 30 students, ignoring faculty.
+  - The faculty effect is the amount by which a given faculty's true mean completion time deviates from the grand mean.
+  - The random error term captures variation between individual students within the same faculty.
+
+  Under this model, the hypotheses are restated as:
+ Null hypothesis (H0): The faculty effect equals zero for Engineering, Science, and EMS (no faculty's mean deviates from the grand mean).
+ Alternative hypothesis (H1): At least one faculty's effect is non-zero (at least one faculty's mean deviates from the grand mean).
+ If H0 is not rejected, the reduced model applies: each observation equals the grand mean plus random error, meaning faculty has no effect on completion time.
+ If H0 is rejected, the full model applies: each observation equals its own faculty's mean plus random error, meaning faculty does affect completion time.
 
 # Experimental design
-
-
-**EXPERIMENTAL UNITS**  
-
-
+**EXPERIMENTAL UNITS** 
   The experimental units are individual undergraduate students currently enrolled at Stellenbosch University
 
-**FACTOR (Independent Variable)**  
-
-
+**FACTOR (Independent Variable)**
   Faculty of Study
 
-
 **TREATMENT LEVELS**  
-
   Engineering
   Science
   Economic and Management Sciences (EMS)
 
 **RESPONSE VARIABLES**  
-
-
   The total time (in seconds) required to complete a standardised logical reasoning test.
 
 **REPLICATION**  
-
-
   Ten students will be recruited from each faculty, giving a total sample size of thirty(30) participants.
 
 # Experimental Procedure
