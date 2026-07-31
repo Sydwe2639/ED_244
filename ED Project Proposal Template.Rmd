@@ -68,12 +68,12 @@ Participants will complete the the assessment individually without assistance fr
   3. Test administration - all questions will be typed out to reduce inconsistency.
   4. Time of the day - testing sessions will be around the same time of day to control fatigue or alertness effects.
   5. Resources available - participants will complete the the assessment individually without assistance from other participants or access to calculators,mobile phones, artificial intelligence tools, or the internet.
-  6.
+  
 
 # Randomisation
   1. Students within each faculty will be randomly selected from consenting undergraduate volunteers, to minimize selection bias.
   2. The order in which participants are tested will be randomised across faculties, that is, not testing all Engineering students first, then all Science students to prevent time-of-day fatigue effects from creating bias with faculty.
-  3. 
+  3. Every participant will complete the identical assessment under the same testing conditions.
 
 
 # Ethical Considerations
@@ -81,10 +81,12 @@ Participants will complete the the assessment individually without assistance fr
   2. Informed consent - all participants will provide consent prior to participation, having been informed of the study's purpose, procedures, expected duration, and their right to withdraw at any time. Those who consent will also appear in a recorded video.
   3. No harm: The test poses minimal risk; it is a standard cognitive assessment. Participants who feel discomfort or undue stress will be permitted to withdraw immediately.
   4. Fair treatment: Equal treatment and identical conditions across faculties will be ensured so no group is disadvantaged by the testing process itself.
-  5.
+  5.No names or student numbers will be recorded, ensuring participant anonymity and confidentiality
 
 # Planned Statistical Analysis
-    ''Pending''
+    The collected data will first be summarised using descriptive statistics, including the mean, median, standard deviation, minimum and maximum completion times. Boxplots will be used to visualise the distribution of the data for each faculty.
+
+A one-way ANOVA will then be performed in R to determine whether there is a statistically significant difference in mean problem-solving time between the three faculties. Model assumptions, including normality and homogeneity of variances, will be assessed before interpreting the ANOVA results.
 
 
 
