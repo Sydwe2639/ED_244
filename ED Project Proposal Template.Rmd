@@ -84,8 +84,7 @@ Participants will complete the the assessment individually without assistance fr
   5.No names or student numbers will be recorded, ensuring participant anonymity and confidentiality
 
 # Planned Statistical Analysis
-    The collected data will first be summarised using descriptive statistics, including the mean, median, standard deviation, minimum and maximum completion times. Boxplots will be used to visualise the distribution of the data for each faculty.
-
+The collected data will first be summarised using descriptive statistics, including the mean, median, standard deviation, minimum and maximum completion times. Boxplots will be used to visualise the distribution of the data for each faculty.
 A one-way ANOVA will then be performed in R to determine whether there is a statistically significant difference in mean problem-solving time between the three faculties. Model assumptions, including normality and homogeneity of variances, will be assessed before interpreting the ANOVA results.
 
 
