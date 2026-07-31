@@ -1,0 +1,73 @@
+---
+title: "ED_Project_Proposal Standard Deviants"
+author:
+- Ndumiso, Nyawo and 26396769
+- Lebohang, Maleke, 28293436
+- Masiu, Mohoang, 28298918
+- Rudairo, Nyamande, 28023366
+- Lwazi, Zwane, 28913884
+date: 'Deadline: 31 July 15:00'
+output:
+  pdf_document:
+    latex_engine: xelatex
+  html_document:
+    df_print: paged
+geometry: margin=1.6cm
+fontsize: 10pt
+header-includes:
+  - \usepackage{enumitem}
+  - \setlist{nosep, leftmargin=1.2em}
+  - \usepackage{titlesec}
+  - \titlespacing{\section}{0pt}{4pt}{2pt}
+  - \setlength{\parskip}{2pt}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**AIM.** To investigate whether a student's faculty of study affects the time required to solve a standardised logical reasoning test, comparing mean completion times across faculties using one-way ANOVA.
+
+**RESEARCH QUESTION.** Does faculty of study influence the average time taken by Stellenbosch University students to solve a standardised logical reasoning test?
+
+# Statistical Hypotheses
+
+**Means model:**
+$H_0: \mu_1 = \mu_2 = \mu_3$ (population mean completion time is equal across Engineering, Science, and EMS)
+$H_1:$ at least one $\mu_i \neq \mu_j$, for $i \neq j$ (at least one faculty's mean differs)
+
+**Equivalent general linear model:** 
+ Each observation (a student's completion time) is modelled as the sum of three components: the grand mean, a faculty-specific effect, and a random error term. The random    error term is assumed to be normally distributed with mean zero and constant variance.
+ 
+# Experimental Design
+
+**Experimental units:** Individual undergraduate students enrolled at Stellenbosch University.
+**Factor:** Faculty of study. **Treatment levels:** Engineering, Science, EMS.
+**Response variable:** Total time (seconds) to complete the reasoning test.
+**Replication:** 10 students per faculty (n = 30 total).
+
+# Experimental Procedure
+
+Each participant completes the identical logical reasoning test under identical conditions. Timing starts when the test begins and stops once the final answer is submitted; time (seconds) is recorded as the response. Participants work individually without calculators, phones, AI tools, or internet access.
+
+# Controlled Variables
+
+1. **Test instrument** -- identical items, order, and difficulty for all participants.
+2. **Academic level** -- participants restricted to a similar year of study.
+3. **Administration** -- questions typed for consistency.
+4. **Time of day** -- sessions held at similar times to control fatigue/alertness.
+5. **Resources** -- no assistance, calculators, phones, AI, or internet permitted.
+
+# Randomisation
+
+1. Students within each faculty are randomly selected from consenting volunteers to minimise selection bias.
+2. Testing order is randomised across faculties (not block-tested by faculty) to prevent time-of-day confounding.
+3. All participants complete the identical assessment under identical conditions.
+
+# Ethical Considerations
+
+Participation is voluntary, with informed consent covering purpose, procedure, duration, and right to withdraw (consenting participants are recorded on video). The test poses minimal risk; participants may withdraw if uncomfortable. Equal, identical conditions are applied across faculties for fair treatment. No names or student numbers are recorded, ensuring anonymity and confidentiality.
+
+# Planned Statistical Analysis
+
+Data will be summarised descriptively (mean, median, SD, min, max) with boxplots comparing faculties. A one-way ANOVA will test for differences in mean completion time between faculties, with normality and homogeneity of variance.
